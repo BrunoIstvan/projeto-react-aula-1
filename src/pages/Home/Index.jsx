@@ -10,7 +10,7 @@ class Home extends React.Component {
 
         super();
 
-        this.state = { 
+        this.state = {
             array: []
         }
 
@@ -32,7 +32,10 @@ class Home extends React.Component {
 
         return (
 
-            <div>Home</div>
+            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input className="mdl-textfield__input" type="text" id="search" />
+                <label className="mdl-textfield__label" htmlFor="search">Digite para buscar...</label>
+            </div>
 
         )
 
